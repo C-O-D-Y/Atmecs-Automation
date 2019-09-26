@@ -1,0 +1,286 @@
+2019-09-26 15:00:34,010 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-26 15:00:34,020 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-26 15:00:34,024 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-26 15:00:34,026 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-26 15:00:34,029 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-26 15:00:34,612 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-26 15:00:34,613 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-26 15:00:34,615 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-26 15:00:34,616 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-26 15:00:34,617 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-26 15:03:40,635 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-26 15:03:40,674 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-26 15:03:40,677 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-26 15:03:40,679 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-26 15:03:40,680 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-26 15:03:41,198 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-26 15:03:41,199 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-26 15:03:41,200 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-26 15:03:41,201 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-26 15:03:41,202 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-26 15:05:22,801  INFO [main] ChooseFlight:29 - Starting Redirection validation
+2019-09-26 15:05:25,145  INFO [main] ChooseFlight:40 - Starting homepage flow
+2019-09-26 15:05:32,698  INFO [main] ChooseFlight:40 - Starting homepage flow
+2019-09-26 15:05:40,132  INFO [main] ChooseFlight:40 - Starting homepage flow
+2019-09-26 15:05:47,280  INFO [main] ChooseFlight:40 - Starting homepage flow
+2019-09-26 15:05:54,460  INFO [main] ChooseFlight:40 - Starting homepage flow
+2019-09-26 15:06:01,652  INFO [main] ChooseFlight:40 - Starting homepage flow
+2019-09-26 15:06:03,114 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-26 15:06:03,117 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-26 15:06:03,121 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-26 15:06:03,124 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-26 15:06:03,125 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-26 15:06:03,551 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-26 15:06:03,553 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-26 15:06:03,554 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-26 15:06:03,556 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-26 15:06:03,559 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-26 15:13:30,892  INFO [main] ChooseFlight:29 - Starting Redirection validation
+2019-09-26 15:13:30,954  INFO [main] ChooseFlight:31 - Redirection is on the correct page
+2019-09-26 15:13:30,955  INFO [main] ChooseFlight:32 - Starting the homepage testing
+2019-09-26 15:13:32,239  INFO [main] ChooseFlight:39 - Starting homepage flow
+2019-09-26 15:14:07,940  INFO [main] ChooseFlight:39 - Starting homepage flow
+2019-09-26 15:14:43,355  INFO [main] ChooseFlight:39 - Starting homepage flow
+2019-09-26 15:19:28,499  INFO [main] ChooseFlight:29 - Starting Redirection validation
+2019-09-26 15:19:28,569  INFO [main] ChooseFlight:31 - Redirection is on the correct page
+2019-09-26 15:19:28,569  INFO [main] ChooseFlight:32 - Starting the homepage testing
+2019-09-26 15:19:29,696  INFO [main] ChooseFlight:39 - Starting homepage flow
+2019-09-26 15:20:04,829  INFO [main] ChooseFlight:39 - Starting homepage flow
+2019-09-26 15:20:42,954  INFO [main] ChooseFlight:39 - Starting homepage flow
+2019-09-26 15:44:03,336  INFO [main] ChooseFlight:28 - Starting Redirection validation
+2019-09-26 15:50:59,485  INFO [main] ChooseFlight:28 - Starting Redirection validation
+2019-09-26 15:51:28,756 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-26 15:51:28,759 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-26 15:51:28,766 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-26 15:51:28,769 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-26 15:51:28,770 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-26 15:51:29,245 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-26 15:51:29,245 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-26 15:51:29,245 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-26 15:51:29,260 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-26 15:51:29,263 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-26 15:52:55,928  INFO [main] ChooseFlight:28 - Starting Redirection validation
+2019-09-26 15:52:55,974  INFO [main] ChooseFlight:30 - Redirection is on the correct page
+2019-09-26 15:52:55,975  INFO [main] ChooseFlight:31 - Starting the homepage testing
+2019-09-26 15:53:24,225 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-26 15:53:24,228 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-26 15:53:24,232 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-26 15:53:24,244 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-26 15:53:24,245 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-26 15:53:24,652 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-26 15:53:24,658 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-26 15:53:24,658 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-26 15:53:24,658 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-26 15:53:24,658 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-26 15:57:35,822  INFO [main] ChooseFlight:28 - Starting Redirection validation
+2019-09-26 15:57:35,901  INFO [main] ChooseFlight:30 - Redirection is on the correct page
+2019-09-26 15:57:35,902  INFO [main] ChooseFlight:31 - Starting the homepage testing
+2019-09-26 15:57:37,213  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 15:57:37,293  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 15:57:37,396  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 15:57:39,056 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-26 15:57:39,072 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-26 15:57:39,072 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-26 15:57:39,072 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-26 15:57:39,097 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-26 15:57:39,594 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-26 15:57:39,595 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-26 15:57:39,596 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-26 15:57:39,596 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-26 15:57:39,597 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-26 15:59:03,146  INFO [main] ChooseFlight:28 - Starting Redirection validation
+2019-09-26 15:59:03,208  INFO [main] ChooseFlight:30 - Redirection is on the correct page
+2019-09-26 15:59:03,209  INFO [main] ChooseFlight:31 - Starting the homepage testing
+2019-09-26 15:59:04,370  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 15:59:04,473  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 15:59:04,555  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 15:59:04,558  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 15:59:04,896 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-26 15:59:04,912 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-26 15:59:04,912 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-26 15:59:04,912 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-26 15:59:04,912 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-26 15:59:05,421 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-26 15:59:05,422 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-26 15:59:05,423 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-26 15:59:05,424 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-26 15:59:05,426 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-26 16:01:17,046  INFO [main] ChooseFlight:28 - Starting Redirection validation
+2019-09-26 16:01:17,094  INFO [main] ChooseFlight:30 - Redirection is on the correct page
+2019-09-26 16:01:17,094  INFO [main] ChooseFlight:31 - Starting the homepage testing
+2019-09-26 16:01:18,309  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:01:18,391  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:01:18,471  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:01:18,554  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:01:18,677  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:01:19,986  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:01:20,068  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:01:31,367  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:01:31,446  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:01:31,518  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:01:31,595  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:01:31,676  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:01:31,807  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:01:53,223  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:02:00,292  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:02:00,671 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-26 16:02:00,675 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-26 16:02:00,680 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-26 16:02:00,683 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-26 16:02:00,684 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-26 16:02:01,010 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-26 16:02:01,011 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-26 16:02:01,011 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-26 16:02:01,012 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-26 16:02:01,012 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-26 16:04:03,846  INFO [main] ChooseFlight:28 - Starting Redirection validation
+2019-09-26 16:04:03,878  INFO [main] ChooseFlight:30 - Redirection is on the correct page
+2019-09-26 16:04:03,879  INFO [main] ChooseFlight:31 - Starting the homepage testing
+2019-09-26 16:04:05,251  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:04:05,332  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:04:05,420  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:04:05,499  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:04:05,597  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:04:06,955  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:04:07,037  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:04:12,253  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:04:12,338  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:04:12,412  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:04:12,489  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:04:12,562  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:04:12,625  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:04:32,175  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:04:38,596  INFO [main] ChooseFlight:38 - Validation done
+2019-09-26 16:04:39,040 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-26 16:04:39,040 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-26 16:04:39,040 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-26 16:04:39,040 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-26 16:04:39,040 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-26 16:04:39,370 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-26 16:04:39,371 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-26 16:04:39,371 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-26 16:04:39,372 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-26 16:04:39,372 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-26 16:19:46,798  INFO [main] ChooseFlight:29 - Starting Redirection validation
+2019-09-26 16:19:46,851  INFO [main] ChooseFlight:31 - Redirection is on the correct page
+2019-09-26 16:19:46,852  INFO [main] ChooseFlight:32 - Starting the homepage testing
+2019-09-26 16:19:48,140  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:19:48,234  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:19:48,332  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:19:48,433  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:19:48,521  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:19:49,983  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:19:50,074  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:20:01,990  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:20:02,076  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:20:02,155  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:20:02,240  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:20:02,324  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:20:02,410  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:20:23,823  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:20:30,273  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:20:30,721 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-26 16:20:30,737 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-26 16:20:30,737 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-26 16:20:30,737 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-26 16:20:30,737 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-26 16:20:31,072 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-26 16:20:31,073 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-26 16:20:31,074 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-26 16:20:31,075 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-26 16:20:31,076 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-26 16:22:10,622  INFO [main] ChooseFlight:29 - Starting Redirection validation
+2019-09-26 16:22:10,651  INFO [main] ChooseFlight:31 - Redirection is on the correct page
+2019-09-26 16:22:10,652  INFO [main] ChooseFlight:32 - Starting the homepage testing
+2019-09-26 16:22:11,587  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:22:11,670  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:22:11,742  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:22:11,809  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:22:11,888  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:22:13,119  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:22:13,193  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:22:23,575  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:22:23,698  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:22:23,792  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:22:23,863  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:22:23,928  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:22:23,994  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:22:45,242  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:22:52,425  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:22:52,831 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-26 16:22:52,834 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-26 16:22:52,840 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-26 16:22:52,843 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-26 16:22:52,844 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-26 16:22:53,170 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-26 16:22:53,171 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-26 16:22:53,172 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-26 16:22:53,173 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-26 16:22:53,174 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-26 16:32:09,598  INFO [main] ChooseFlight:29 - Starting Redirection validation
+2019-09-26 16:32:09,640  INFO [main] ChooseFlight:31 - Redirection is on the correct page
+2019-09-26 16:32:09,641  INFO [main] ChooseFlight:32 - Starting the homepage testing
+2019-09-26 16:32:10,907  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:32:10,984  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:32:11,074  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:32:11,159  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:32:11,245  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:32:11,349  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:32:11,443  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:32:11,525  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:32:11,620  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:32:11,713  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:32:11,808  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:32:11,898  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:32:12,001  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:32:12,144  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:32:12,148  INFO [main] ChooseFlight:39 - Validation done
+2019-09-26 16:32:12,426 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-26 16:32:12,428 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-26 16:32:12,443 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-26 16:32:12,447 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-26 16:32:12,449 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-26 16:32:12,858 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-26 16:32:12,859 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-26 16:32:12,860 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-26 16:32:12,861 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-26 16:32:12,861 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-26 16:32:55,209  INFO [main] ChooseFlight:29 - Starting Redirection validation
+2019-09-26 16:32:55,252  INFO [main] ChooseFlight:31 - Redirection is on the correct page
+2019-09-26 16:32:55,253  INFO [main] ChooseFlight:32 - Starting the homepage testing
+2019-09-26 16:44:39,170  INFO [main] ChooseFlight:29 - Starting Redirection validation
+2019-09-26 16:44:39,225  INFO [main] ChooseFlight:31 - Redirection is on the correct page
+2019-09-26 16:44:39,226  INFO [main] ChooseFlight:32 - Starting the homepage testing
+2019-09-26 16:44:42,796  INFO [main] ChooseFlight:41 - Validation done
+2019-09-26 16:44:44,935  INFO [main] ChooseFlight:41 - Validation done
+2019-09-26 16:44:47,067  INFO [main] ChooseFlight:41 - Validation done
+2019-09-26 16:44:49,154  INFO [main] ChooseFlight:41 - Validation done
+2019-09-26 16:44:51,362  INFO [main] ChooseFlight:41 - Validation done
+2019-09-26 16:44:53,485  INFO [main] ChooseFlight:41 - Validation done
+2019-09-26 16:44:55,774  INFO [main] ChooseFlight:41 - Validation done
+2019-09-26 16:44:58,005  INFO [main] ChooseFlight:41 - Validation done
+2019-09-26 16:45:00,654  INFO [main] ChooseFlight:41 - Validation done
+2019-09-26 16:45:03,720  INFO [main] ChooseFlight:41 - Validation done
+2019-09-26 16:45:07,030  INFO [main] ChooseFlight:41 - Validation done
+2019-09-26 16:45:09,166  INFO [main] ChooseFlight:41 - Validation done
+2019-09-26 16:45:11,336  INFO [main] ChooseFlight:41 - Validation done
+2019-09-26 16:45:13,544  INFO [main] ChooseFlight:41 - Validation done
+2019-09-26 16:50:37,055  INFO [main] ChooseFlight:30 - Starting Redirection validation
+2019-09-26 16:50:37,115  INFO [main] ChooseFlight:32 - Redirection is on the correct page
+2019-09-26 16:50:37,116  INFO [main] ChooseFlight:33 - Starting the homepage testing
+2019-09-26 18:13:06,876  INFO [main] HomePagetestscripts:25 - Starting Redirection validation
+2019-09-26 18:13:11,493  INFO [main] HomePagetestscripts:25 - Starting Redirection validation
+2019-09-26 18:13:15,972  INFO [main] HomePagetestscripts:25 - Starting Redirection validation
+2019-09-26 18:13:21,408  INFO [main] HomePagetestscripts:25 - Starting Redirection validation
+2019-09-26 18:13:26,769  INFO [main] HomePagetestscripts:25 - Starting Redirection validation
+2019-09-26 18:13:32,088  INFO [main] HomePagetestscripts:25 - Starting Redirection validation
+2019-09-26 18:13:37,708 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-26 18:13:37,710 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-26 18:13:37,714 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-26 18:13:37,717 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-26 18:13:37,718 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-26 18:13:38,077 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-26 18:13:38,077 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-26 18:13:38,077 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-26 18:13:38,077 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-26 18:13:38,077 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

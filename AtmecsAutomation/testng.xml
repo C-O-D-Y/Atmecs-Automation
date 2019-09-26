@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.atmecs.extentReports.ExtentReport"/>
+      <class name="com.atmecs.testScripts.HomePagetestscripts"/>
+      <class name="com.atmecs.dataProvider.TestDataProvider"/>
+      <class name="com.atmecs.constants.MultipleElements"/>
+      <class name="com.atmecs.testScripts.ValidateAnchors"/>
+      <class name="com.atmecs.testScripts.InsightsValidation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
