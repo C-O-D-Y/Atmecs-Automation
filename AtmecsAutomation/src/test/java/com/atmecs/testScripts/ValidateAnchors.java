@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import com.atmecs.constants.Locators;
 import com.atmecs.constants.ValidatingData;
 import com.atmecs.dataProvider.TestDataProvider;
+import com.atmecs.helpers.WebUtility;
 import com.atmecs.logReports.LogReport;
 import com.atmecs.pages.HomePage;
 import com.atmecs.testBase.TestBase;
@@ -17,23 +18,33 @@ public class ValidateAnchors extends TestBase {
 	static HomePage home = new HomePage();
 	ValidatingData data = new ValidatingData();
 
-	@Test(priority = 4, dataProvider = "header1", dataProviderClass = TestDataProvider.class)
-	public void isAnchorsPresent(String anchor) {
+	@Test(priority = 16)
+	public void moveToDigitalLife() {
 		log = Logger.getLogger(HomePagetestscripts.class);
 		LogReport.getlogger();
-
-		log.info("Starting Redirection validation");
+		logger = extent.startTest("Validating anchors of the Digital life page");
+		log.info("Starting Anchors tag validation");
 		HomePageFlow.clickServices();
+
+	}
+
+	@Test(priority = 17, dataProvider = "header1", dataProviderClass = TestDataProvider.class)
+	public void isDigitalLifeAnchorPresent(String anchor) {
 		home.ValidateAnchors(anchor);
 	}
 
-	@Test(priority = 5, dataProvider = "header2", dataProviderClass = TestDataProvider.class)
-	public void isAnchorPresent(String anchor) {
+	@Test(priority = 19, dataProvider = "header2", dataProviderClass = TestDataProvider.class)
+	public void isInfrastructureAnchorPresent(String anchor) {
+
+		home.ValidateAnchors(anchor);
+	}
+
+	@Test(priority = 18)
+	public void moveToInfrastructure() {
 		log = Logger.getLogger(HomePagetestscripts.class);
 		LogReport.getlogger();
 
 		log.info("Starting Redirection validation");
 		HomePageFlow.clickInfra();
-		home.ValidateAnchors(anchor);
 	}
 }

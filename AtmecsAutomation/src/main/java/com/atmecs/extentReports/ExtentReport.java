@@ -15,6 +15,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 
 import com.atmecs.constants.FilePath;
+import com.atmecs.constants.GridConnection;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -22,7 +23,8 @@ import com.relevantcodes.extentreports.LogStatus;
 /**
  * In this class, extent report is made
  */
-public class ExtentReport {
+
+public class ExtentReport extends GridConnection {
 	public static WebDriver driver;
 	public static ExtentReports extent;
 	public static ExtentTest logger;
@@ -71,14 +73,16 @@ public class ExtentReport {
 			String screenshotPath = ExtentReport.getScreenshot(driver, result.getName());
 			logger.log(LogStatus.FAIL, logger.addScreenCapture(screenshotPath)); // to add screenshot in extent
 			// report
-			
+
 			// //to add screencast/video in extent report
 		} else if (result.getStatus() == ITestResult.SKIP) {
 			logger.log(LogStatus.SKIP, "Test Case SKIPPED IS " + result.getName());
 		} else if (result.getStatus() == ITestResult.SUCCESS) {
 			logger.log(LogStatus.PASS, "Test Case PASSED IS " + result.getName());
 		}
-		extent.endTest(logger);		
+		extent.endTest(logger);
+		System.out.println("logger executed");
+
 	}
 
 //closing all the resources used for the testing
@@ -87,9 +91,9 @@ public class ExtentReport {
 		extent.flush();
 		extent.close();
 	}
+
 	@AfterTest
-	public void print()
-	{
+	public void print() {
 		driver.close();
 	}
 }

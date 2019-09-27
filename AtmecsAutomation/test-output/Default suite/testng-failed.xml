@@ -3,14 +3,20 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.atmecs.testScripts.HomePagetestscripts">
+      <class name="com.atmecs.testScripts.InsightsValidation">
         <methods>
-          <include name="validatefooterForHome" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14"/>
-          <include name="validatefooterForServices" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14"/>
+          <include name="validateBreadCrumb"/>
+          <include name="print"/>
+          <include name="anchorRedirection"/>
+          <include name="endReport"/>
+          <include name="validateDate"/>
+          <include name="tearDown"/>
+          <include name="ValidateErrorMsg"/>
+          <include name="startReport"/>
           <include name="intitailizeBrowser"/>
-          <include name="clickHeaderServices"/>
+          <include name="validateTitle"/>
         </methods>
-      </class> <!-- com.atmecs.testScripts.HomePagetestscripts -->
+      </class> <!-- com.atmecs.testScripts.InsightsValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

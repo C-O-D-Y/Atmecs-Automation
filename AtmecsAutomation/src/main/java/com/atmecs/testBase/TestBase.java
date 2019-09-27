@@ -5,13 +5,14 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.BasicConfigurator;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.BeforeTest;
 
 import com.atmecs.constants.FilePath;
+import com.atmecs.constants.GridConnection;
 import com.atmecs.constants.LoadPropertyFile;
 import com.atmecs.extentReports.ExtentReport;
 import com.atmecs.utils.ReadPropertiesFile;
@@ -19,11 +20,11 @@ import com.atmecs.utils.ReadPropertiesFile;
 /**
  * Class loads the web driver according to the config file
  */
-public class TestBase {
+public class TestBase extends ExtentReport {
 
-	protected static WebDriver driver;
 	Properties baseClass;
 	String url;
+	String connecton;
 	String browser;
 	int downloadFile;
 	LoadPropertyFile load = new LoadPropertyFile();
@@ -34,35 +35,46 @@ public class TestBase {
 	 * 
 	 * @param configFilePath
 	 */
+	@SuppressWarnings("deprecation")
 	@BeforeTest
 	public void intitailizeBrowser() throws IOException {
 		BasicConfigurator.configure();
 		baseClass = ReadPropertiesFile.loadProperty(FilePath.CONFIG_FILE);
 		url = baseClass.getProperty("URL");
+		connecton=baseClass.getProperty("CONNECTION");
+
 		browser = baseClass.getProperty("browser");
 		String[] brow = browser.split(",");
+		if (connecton.equalsIgnoreCase("normal")) {
+			for (String browserType : brow) {
 
-		for (String browserType : brow) {
+				System.out.println("browser is " + browserType);
 
-			System.out.println("browser is " + browserType);
+				if (browserType.equalsIgnoreCase("chrome")) {
+					System.setProperty("webdriver.chrome.driver", FilePath.CHROME_PATH);
 
-			if (browserType.equalsIgnoreCase("chrome")) {
-				System.setProperty("webdriver.chrome.driver", FilePath.CHROME_PATH);
+					driver = new ChromeDriver();
+					driver.get(url);
 
-				driver = new ChromeDriver();
+				} else if (browserType.equalsIgnoreCase("firefox")) {
+					System.setProperty("webdriver.gecko.driver", FilePath.FIREFOX_PATH);
+					driver = new FirefoxDriver();
+					driver.get(url);
+				} else if (browser.equalsIgnoreCase("ie")) {
+					System.setProperty("webdriver.edge.driver", FilePath.IE_PATH);
+					DesiredCapabilities ieCaps = DesiredCapabilities.internetExplorer();
+					ieCaps.setCapability(InternetExplorerDriver.INITIAL_BROWSER_URL, url);
+					driver = new InternetExplorerDriver(ieCaps);
+				} else {
+					System.out.println("Driver not found in the config file");
+				}
 
-			} else if (browserType.equalsIgnoreCase("firefox")) {
-				System.setProperty("webdriver.gecko.driver", FilePath.FIREFOX_PATH);
-				driver = new FirefoxDriver();
-			} else if (browserType.equalsIgnoreCase("IE")) {
-				System.setProperty("webdriver.ie.driver", "./lib/IEDriverServer.exe");
-				driver = new InternetExplorerDriver();
-			} else {
-				System.out.println("Driver not found in the config file");
+				driver.manage().window().maximize();
+				driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
 			}
-			driver.get(url);
-			driver.manage().window().maximize();
-			driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
+		}
+		if (connecton.equalsIgnoreCase("Grid")) {
+			GridConnection.getConnection(driver);
 		}
 	}
 }

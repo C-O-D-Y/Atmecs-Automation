@@ -7,7 +7,6 @@ import java.util.function.Function;
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -234,5 +233,12 @@ public class WebUtility extends TestBase {
 		WebElement element = driver.findElement(By.xpath(xpath));
 		JavascriptExecutor je = (JavascriptExecutor) driver;
 		je.executeScript("arguments[0].scrollIntoView(true);", element);
+	}
+
+	public static String getAttribute(String xpath) {
+		WebElement element = driver.findElement(By.xpath(xpath));
+		String required = element.getAttribute("required");
+		return required;
+
 	}
 }

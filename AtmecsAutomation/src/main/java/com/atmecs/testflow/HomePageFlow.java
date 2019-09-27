@@ -19,7 +19,6 @@ public class HomePageFlow {
 		BasicConfigurator.configure();
 		System.out.println(Locators.getLocators("loc.btns.Header").replace("[xxxx]", header));
 		WebUtility.clickElement(Locators.getLocators("loc.btns.Header").replace("[xxxx]", header));
-		WebUtility.explicitWait("loc.btn.Sitemap");
 	}
 
 	public static void clickServices() {

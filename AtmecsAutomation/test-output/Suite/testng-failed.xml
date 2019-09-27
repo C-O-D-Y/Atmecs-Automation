@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AnchorsTest(failed)">
+    <classes>
+      <class name="com.atmecs.testScripts.ValidateAnchors">
+        <methods>
+          <include name="print"/>
+          <include name="isDigitalLifeAnchorPresent" invocation-numbers="0"/>
+          <include name="isInfrastructureAnchorPresent" invocation-numbers="0 1 2 3 4"/>
+          <include name="endReport"/>
+          <include name="tearDown"/>
+          <include name="startReport"/>
+          <include name="intitailizeBrowser"/>
+        </methods>
+      </class> <!-- com.atmecs.testScripts.ValidateAnchors -->
+    </classes>
+  </test> <!-- AnchorsTest(failed) -->
+  <test thread-count="5" name="InsightPageTest(failed)">
+    <classes>
+      <class name="com.atmecs.testScripts.InsightsValidation">
+        <methods>
+          <include name="validateBreadCrumb"/>
+          <include name="print"/>
+          <include name="anchorRedirection"/>
+          <include name="endReport"/>
+          <include name="validateDate"/>
+          <include name="tearDown"/>
+          <include name="ValidateErrorMsg"/>
+          <include name="startReport"/>
+          <include name="intitailizeBrowser"/>
+          <include name="validateTitle"/>
+        </methods>
+      </class> <!-- com.atmecs.testScripts.InsightsValidation -->
+    </classes>
+  </test> <!-- InsightPageTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

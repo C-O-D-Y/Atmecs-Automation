@@ -59,8 +59,9 @@ public class TestDataProvider {
 	 * and returning to the calling method
 	 */
 	@Test(priority = 2, dataProvider = "footer2", dataProviderClass = TestDataProvider.class)
-	public void validatefooter(String footer) {
+	public void validatefooter(String footer, String footer1) {
 		System.out.println(footer);
-		
+		System.out.println(footer1);
+
 	}
 }

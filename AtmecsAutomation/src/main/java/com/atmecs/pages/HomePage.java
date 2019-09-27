@@ -40,11 +40,12 @@ public class HomePage {
 			Assert.assertEquals(text, footer, "footer is not present");
 		}
 	}
-	
-	
+
 	public void ValidateAnchors(String anchor) {
-		String text = WebUtility.getElement(Locators.getLocators("loc.btns.footerTags").replace("[xxxx]", anchor));
-		System.out.println(text);
-		Assert.assertEquals(text, anchor, "footer is not present");
+		if (anchor != null) {
+			String text = WebUtility.getElement(Locators.getLocators("loc.btns.footerTags").replace("[xxxx]", anchor));
+			System.out.println(text);
+			Assert.assertEquals(text, anchor, "footer is not present");
+		}
 	}
 }

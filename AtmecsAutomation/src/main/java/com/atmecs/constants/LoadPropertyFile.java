@@ -3,7 +3,6 @@ package com.atmecs.constants;
 import java.io.IOException;
 import java.util.Properties;
 
-import com.atmecs.helpers.WebUtility;
 import com.atmecs.utils.ReadPropertiesFile;
 
 /**
