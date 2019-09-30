@@ -47,12 +47,14 @@ public class ExcelFileOperation {
 		return rows;
 	}
 
+	// getting the no of rows in the sheet
 	public int getNoOfRows() {
 		int rowIndex = worksheet.getLastRowNum();
 
 		return rowIndex + 1;
 	}
 
+	// getting no of columns in the sheet
 	public int getNoOfColumns() {
 		Iterator<Row> rowIterator = worksheet.rowIterator();
 		int columnIndex = 0;

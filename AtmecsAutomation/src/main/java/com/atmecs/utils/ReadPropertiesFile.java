@@ -8,8 +8,8 @@ import java.util.Properties;
 /**
  * The class loads the data of the property file and returns the value
  * associated with the key in the property file.
+ * 
  * @author Saurabh Chauhan
- *
  */
 
 public class ReadPropertiesFile {

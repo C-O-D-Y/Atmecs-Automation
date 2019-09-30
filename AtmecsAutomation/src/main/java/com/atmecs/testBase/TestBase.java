@@ -41,40 +41,44 @@ public class TestBase extends ExtentReport {
 		BasicConfigurator.configure();
 		baseClass = ReadPropertiesFile.loadProperty(FilePath.CONFIG_FILE);
 		url = baseClass.getProperty("URL");
-		connecton=baseClass.getProperty("CONNECTION");
+
+		// Type of connection is taken from the config file
+		connecton = baseClass.getProperty("CONNECTION");
 
 		browser = baseClass.getProperty("browser");
-		String[] brow = browser.split(",");
+
+		// flow of the driver to be GRID or Normal in the base class
 		if (connecton.equalsIgnoreCase("normal")) {
-			for (String browserType : brow) {
 
-				System.out.println("browser is " + browserType);
+			if (browser.equalsIgnoreCase("chrome")) {
+				System.setProperty("webdriver.chrome.driver", FilePath.CHROME_PATH);
 
-				if (browserType.equalsIgnoreCase("chrome")) {
-					System.setProperty("webdriver.chrome.driver", FilePath.CHROME_PATH);
+				driver = new ChromeDriver();
+				driver.get(url);
 
-					driver = new ChromeDriver();
-					driver.get(url);
-
-				} else if (browserType.equalsIgnoreCase("firefox")) {
-					System.setProperty("webdriver.gecko.driver", FilePath.FIREFOX_PATH);
-					driver = new FirefoxDriver();
-					driver.get(url);
-				} else if (browser.equalsIgnoreCase("ie")) {
-					System.setProperty("webdriver.edge.driver", FilePath.IE_PATH);
-					DesiredCapabilities ieCaps = DesiredCapabilities.internetExplorer();
-					ieCaps.setCapability(InternetExplorerDriver.INITIAL_BROWSER_URL, url);
-					driver = new InternetExplorerDriver(ieCaps);
-				} else {
-					System.out.println("Driver not found in the config file");
-				}
-
-				driver.manage().window().maximize();
-				driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
+			} else if (browser.equalsIgnoreCase("firefox")) {
+				System.setProperty("webdriver.gecko.driver", FilePath.FIREFOX_PATH);
+				driver = new FirefoxDriver();
+				driver.get(url);
+			} else if (browser.equalsIgnoreCase("ie")) {
+				System.setProperty("webdriver.edge.driver", FilePath.IE_PATH);
+				DesiredCapabilities ieCaps = DesiredCapabilities.internetExplorer();
+				ieCaps.setCapability(InternetExplorerDriver.INITIAL_BROWSER_URL, url);
+				driver = new InternetExplorerDriver(ieCaps);
+			} else {
+				System.out.println("Driver not found in the config file");
 			}
+
+			driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
 		}
-		if (connecton.equalsIgnoreCase("Grid")) {
-			GridConnection.getConnection(driver);
+		// if connection is to be grid
+		if (connecton.equalsIgnoreCase("Grid"))
+
+		{
+			System.out.println("Grid connection");
+			GridConnection grid = new GridConnection();
+			ExtentReport.driver = grid.getConnection(driver, browser);
 		}
 	}
 }

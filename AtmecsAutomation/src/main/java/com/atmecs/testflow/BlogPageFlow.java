@@ -9,7 +9,15 @@ import java.util.Locale;
 import com.atmecs.constants.Locators;
 import com.atmecs.helpers.WebUtility;
 
+/**
+ * Class maintain the flow of the test to the second page by clicking in the
+ * blogs anchor
+ */
 public class BlogPageFlow {
+
+	/**
+	 * Method click on the header insights ---> Blogs and then the blog img
+	 */
 	public static void clickHeader() {
 
 		WebUtility.action(Locators.getLocators("loc.btn.insights"));
@@ -17,23 +25,33 @@ public class BlogPageFlow {
 		WebUtility.clickElement(Locators.getLocators("loc.img.blog"));
 	}
 
+	/**
+	 * Method click on the post comment button of the comment bar
+	 */
 	public static void clickSubmit() {
 
 		WebUtility.clickElement(Locators.getLocators("loc.btn.postComment"));
 	}
 
+	/**
+	 * Method use to get the date of the blog and the system date to validate that
+	 * they are 3 months old or not
+	 */
 	@SuppressWarnings("deprecation")
 	public static int getDate() {
 
+		// getting blog date from the web
 		String string = WebUtility.getElement(Locators.getLocators("loc.btn.blogDate"));
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMMM d, yyyy", Locale.ENGLISH);
 		LocalDate localDate = LocalDate.parse(string, formatter);
-		System.out.println(localDate); // 2010-01-02
+		System.out.println(localDate); // 2019-01-02
 
 		String local[] = (localDate + "").split("-");
 
+		// getting date of the system
 		String day = Calendar.getInstance().getTime() + "";
 		Date date = new Date();
+
 		int month = date.getMonth() + 1;
 //		System.out.println(day);// 5 2 1 Fri Sep 27 14:28:35 IST 2019
 		String[] date1 = day.split(" ");

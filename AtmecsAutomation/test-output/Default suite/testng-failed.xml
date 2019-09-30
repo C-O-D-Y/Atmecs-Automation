@@ -5,16 +5,12 @@
     <classes>
       <class name="com.atmecs.testScripts.InsightsValidation">
         <methods>
-          <include name="validateBreadCrumb"/>
           <include name="print"/>
-          <include name="anchorRedirection"/>
           <include name="endReport"/>
           <include name="validateDate"/>
           <include name="tearDown"/>
-          <include name="ValidateErrorMsg"/>
           <include name="startReport"/>
           <include name="intitailizeBrowser"/>
-          <include name="validateTitle"/>
         </methods>
       </class> <!-- com.atmecs.testScripts.InsightsValidation -->
     </classes>

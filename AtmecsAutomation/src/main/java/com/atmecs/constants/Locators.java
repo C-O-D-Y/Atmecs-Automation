@@ -23,7 +23,8 @@ public class Locators {
 	}
 
 	/**
-	 * In this method, locator data from the property file is taken.
+	 * In this method, locator data from the property file is taken and returning
+	 * the value.
 	 * 
 	 * @param key
 	 */

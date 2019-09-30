@@ -27,10 +27,10 @@ public class HomePage {
 	}
 
 	/**
-	 * In this method i'm validating the functionality of return date button is
-	 * displayed or not after you hit the round trip button
+	 * In this method i'm validating the footer is displayed or not after you hit
+	 * the any header button
 	 * 
-	 * @param driver
+	 * @param footer
 	 */
 
 	public void isFooterItemsPresent(String footer) {
@@ -41,6 +41,12 @@ public class HomePage {
 		}
 	}
 
+	/**
+	 * In this method i'm validating the anchors is present or not in the specific
+	 * header.
+	 * 
+	 * @param anchor
+	 */
 	public void ValidateAnchors(String anchor) {
 		if (anchor != null) {
 			String text = WebUtility.getElement(Locators.getLocators("loc.btns.footerTags").replace("[xxxx]", anchor));

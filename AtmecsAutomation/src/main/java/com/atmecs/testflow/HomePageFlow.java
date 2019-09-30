@@ -10,22 +10,30 @@ import com.atmecs.helpers.WebUtility;
  */
 public class HomePageFlow {
 
-	/**
-	 * Method used to give input to the city for departure and round trip
-	 */
 	static Locators locaters = new Locators();
 
+	/**
+	 * Method used to click to the header and to the anchors to maintain the flow
+	 */
 	public static void clickHeader(String header) throws InterruptedException {
 		BasicConfigurator.configure();
 		System.out.println(Locators.getLocators("loc.btns.Header").replace("[xxxx]", header));
 		WebUtility.clickElement(Locators.getLocators("loc.btns.Header").replace("[xxxx]", header));
 	}
 
+	/**
+	 * Method used to click to the Services header and to the digital life anchor to
+	 * maintain the flow
+	 */
 	public static void clickServices() {
 		WebUtility.action(Locators.getLocators("loc.btn.services"));
 		WebUtility.action(Locators.getLocators("loc.btn.digitalLife"));
 	}
 
+	/**
+	 * Method used to click to the Services header and to infrastructure anchor to
+	 * maintain the flow
+	 */
 	public static void clickInfra() {
 		WebUtility.action(Locators.getLocators("loc.btn.services"));
 		WebUtility.action(Locators.getLocators("loc.btns.infrastructureServics"));

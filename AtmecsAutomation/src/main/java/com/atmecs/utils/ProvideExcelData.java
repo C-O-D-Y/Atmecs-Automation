@@ -6,9 +6,9 @@ import java.util.Iterator;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 
-/*
+/**
  * Class provides the Excel cell data to the calling method
- * */
+ */
 public class ProvideExcelData {
 
 	Object[][] object;
@@ -49,7 +49,7 @@ public class ProvideExcelData {
 
 				{
 					object[i][j] = cell.toString();
-					//System.out.println(cell.toString());
+					// System.out.println(cell.toString());
 				}
 				j++;
 			}

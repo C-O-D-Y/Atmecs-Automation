@@ -15,8 +15,8 @@ public class TestDataProvider {
 	HomePage home = new HomePage();
 
 	/**
-	 * In this method, getting the data of the city into object array and returning
-	 * to the calling method
+	 * In this method, getting the data of the headers into object array and
+	 * returning to the calling method
 	 */
 
 	@DataProvider(name = "header")
@@ -26,6 +26,10 @@ public class TestDataProvider {
 		return getData;
 	}
 
+	/**
+	 * In this method, getting the data inside the header(SERVICES) into object
+	 * array and returning to the calling method
+	 */
 	@DataProvider(name = "header1")
 	public Object[][] getOption1() {
 		ProvideExcelData provideData = new ProvideExcelData(FilePath.TESTDATA_FILE, 1);
@@ -33,6 +37,10 @@ public class TestDataProvider {
 		return getData;
 	}
 
+	/**
+	 * In this method, getting the data inside the header(DIGITAL LIFE) into object
+	 * array and returning to the calling method
+	 */
 	@DataProvider(name = "header2")
 	public Object[][] getOption2() {
 		ProvideExcelData provideData = new ProvideExcelData(FilePath.TESTDATA_FILE, 2);
@@ -40,6 +48,10 @@ public class TestDataProvider {
 		return getData;
 	}
 
+	/**
+	 * In this method, getting the data inside the header(INFRASTRUCTURE MGMT) into
+	 * object array and returning to the calling method
+	 */
 	@DataProvider(name = "header3")
 	public Object[][] getCityData() {
 		ProvideExcelData provideData = new ProvideExcelData(FilePath.TESTDATA_FILE, 3);
@@ -47,6 +59,10 @@ public class TestDataProvider {
 		return getData;
 	}
 
+	/**
+	 * In this method, getting the data of the footer into object array and returning
+	 * to the calling method
+	 */
 	@DataProvider(name = "footer2")
 	public Object[][] getfooter() {
 		ProvideExcelData provideData = new ProvideExcelData(FilePath.TESTDATA_FILE, 4);
@@ -55,8 +71,7 @@ public class TestDataProvider {
 	}
 
 	/**
-	 * In this method, getting the data of the passengers details into object array
-	 * and returning to the calling method
+	 * In this method, calling the method to check the data
 	 */
 	@Test(priority = 2, dataProvider = "footer2", dataProviderClass = TestDataProvider.class)
 	public void validatefooter(String footer, String footer1) {

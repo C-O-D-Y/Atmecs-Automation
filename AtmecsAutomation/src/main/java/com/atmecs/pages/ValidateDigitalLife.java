@@ -13,6 +13,11 @@ public class ValidateDigitalLife {
 	static HomePage home = new HomePage();
 	ValidatingData data = new ValidatingData();
 
+	/**
+	 * Methods used to validate the anchors present in the headers
+	 * 
+	 * @param anchor
+	 */
 	public void ValidateAnchors(String anchor) {
 		String text = WebUtility.getElement(Locators.getLocators("loc.btns.footerTags").replace("[xxxx]", anchor));
 		System.out.println(text);

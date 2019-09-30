@@ -12,7 +12,7 @@ import com.atmecs.testBase.TestBase;
 import com.atmecs.testflow.HomePageFlow;
 
 /*
-*Class validates the functionality of homepage input boxes and buttons functionality
+*Class validates the functionality of homepage header buttons functionality
 */
 public class HomePagetestscripts extends TestBase {
 	Logger log;
@@ -20,6 +20,9 @@ public class HomePagetestscripts extends TestBase {
 	static HomePage home = new HomePage();
 	ValidatingData data = new ValidatingData();
 
+	/*
+	 * Test validates the homepage redirection of the atmecs.com
+	 */
 	@Test(priority = 1)
 	public void homePageRedirection() {
 		log = Logger.getLogger(HomePagetestscripts.class);
@@ -40,6 +43,7 @@ public class HomePagetestscripts extends TestBase {
 		log.info("Validation done");
 	}
 
+	// clicking on the header of the services
 	@Test(priority = 2)
 	public void clickHeaderServices() {
 		try {
@@ -51,6 +55,7 @@ public class HomePagetestscripts extends TestBase {
 		}
 	}
 
+	// clicking on the header of the Careers
 	@Test(priority = 4)
 	public void clickHeaderCareers() {
 		try {
@@ -71,6 +76,7 @@ public class HomePagetestscripts extends TestBase {
 		log.info("Validation done");
 	}
 
+	// clicking on the header of the About_Us
 	@Test(priority = 6)
 	public void clickHeaderAboutUs() {
 		try {
@@ -91,6 +97,7 @@ public class HomePagetestscripts extends TestBase {
 		log.info("Validation done");
 	}
 
+	// clicking on the header of the Partners
 	@Test(priority = 8)
 	public void clickHeaderPartners() {
 		try {
@@ -110,6 +117,7 @@ public class HomePagetestscripts extends TestBase {
 		log.info("Validation done");
 	}
 
+	// clicking on the header of the Media
 	@Test(priority = 10)
 	public void clickHeaderMedia() {
 		try {
@@ -121,6 +129,7 @@ public class HomePagetestscripts extends TestBase {
 		}
 	}
 
+	// method validate the footer of the pages are present or not
 	@Test(priority = 11, dataProvider = "footer2", dataProviderClass = TestDataProvider.class)
 	public void validatefooterForMedia(String footer) throws InterruptedException {
 		log = Logger.getLogger(HomePagetestscripts.class);
@@ -129,6 +138,7 @@ public class HomePagetestscripts extends TestBase {
 		log.info("Validation done");
 	}
 
+	// clicking on the header of the ContactUs
 	@Test(priority = 12)
 	public void clickContactUs() {
 		log = Logger.getLogger(HomePagetestscripts.class);
@@ -140,6 +150,7 @@ public class HomePagetestscripts extends TestBase {
 		}
 	}
 
+	// method validate the footer of the pages are present or not
 	@Test(priority = 13, dataProvider = "footer2", dataProviderClass = TestDataProvider.class)
 	public void validatefooterForContacts(String footer) throws InterruptedException {
 		log = Logger.getLogger(HomePagetestscripts.class);
@@ -148,6 +159,7 @@ public class HomePagetestscripts extends TestBase {
 		log.info("Validation done");
 	}
 
+	// clicking on the header of the Insights
 	@Test(priority = 14)
 	public void clickInsights() {
 		log = Logger.getLogger(HomePagetestscripts.class);
@@ -159,6 +171,7 @@ public class HomePagetestscripts extends TestBase {
 		}
 	}
 
+	// method validate the footer of the pages are present or not
 	@Test(priority = 15, dataProvider = "footer2", dataProviderClass = TestDataProvider.class)
 	public void validatefooterForInsights(String footer) throws InterruptedException {
 		log = Logger.getLogger(HomePagetestscripts.class);

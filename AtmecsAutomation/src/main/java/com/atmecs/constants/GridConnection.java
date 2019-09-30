@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -13,23 +14,26 @@ import org.openqa.selenium.remote.RemoteWebDriver;
  * In this class, grid connection is being done
  */
 public class GridConnection {
+	static public URL url;
+	String nodeurl;
 
 	/**
 	 * In this method, hub is created
 	 */
-	public static WebDriver getConnection(WebDriver driver) {
-		String nodeurl = "http://55.55.52.193:4444/wd/hub";
+	public WebDriver getConnection(WebDriver driver, String browser) {
+		nodeurl = "http://55.55.52.193:4444/wd/hub";
 
 		DesiredCapabilities capability = new DesiredCapabilities();
-		URL url1 = null;
+
 		try {
-			url1 = new URL(nodeurl);
+			url = new URL(nodeurl);
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
 		}
-		capability.setBrowserName("chrome");
+
+		capability.setBrowserName(browser);
 		capability.setPlatform(Platform.WIN10);
-		driver = new RemoteWebDriver(url1, capability);
+		driver = new RemoteWebDriver(url, capability);
 		driver.get("https://www.atmecs.com/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
