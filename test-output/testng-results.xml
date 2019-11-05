@@ -1,0 +1,2834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="132" passed="132" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-09-30T11:18:56Z" name="Suite" finished-at="2019-09-30T11:21:19Z" duration-ms="143257">
+    <groups>
+    </groups>
+    <test started-at="2019-09-30T11:18:56Z" name="HomepageTest" finished-at="2019-09-30T11:19:57Z" duration-ms="60933">
+      <class name="com.atmecs.testScripts.HomePagetestscripts">
+        <test-method is-config="true" signature="intitailizeBrowser()[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:18:56Z" name="intitailizeBrowser" finished-at="2019-09-30T11:19:26Z" duration-ms="29675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitailizeBrowser -->
+        <test-method signature="homePageRedirection()[pri:1, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:26Z" name="homePageRedirection" finished-at="2019-09-30T11:19:26Z" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageRedirection -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:26Z" name="tearDown" finished-at="2019-09-30T11:19:26Z" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homePageRedirection status=SUCCESS method=HomePagetestscripts.homePageRedirection()[pri:1, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickHeaderServices()[pri:2, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:26Z" name="clickHeaderServices" finished-at="2019-09-30T11:19:33Z" duration-ms="6683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickHeaderServices -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:33Z" name="tearDown" finished-at="2019-09-30T11:19:33Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickHeaderServices status=SUCCESS method=HomePagetestscripts.clickHeaderServices()[pri:2, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:34Z" name="validatefooterForServices" data-provider="footer2" finished-at="2019-09-30T11:19:34Z" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForServices -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:34Z" name="tearDown" finished-at="2019-09-30T11:19:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForServices status=SUCCESS method=HomePagetestscripts.validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:34Z" name="validatefooterForServices" data-provider="footer2" finished-at="2019-09-30T11:19:34Z" duration-ms="136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[About Us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForServices -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:34Z" name="tearDown" finished-at="2019-09-30T11:19:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForServices status=SUCCESS method=HomePagetestscripts.validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:34Z" name="validatefooterForServices" data-provider="footer2" finished-at="2019-09-30T11:19:34Z" duration-ms="164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Services]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForServices -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:34Z" name="tearDown" finished-at="2019-09-30T11:19:34Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForServices status=SUCCESS method=HomePagetestscripts.validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:34Z" name="validatefooterForServices" data-provider="footer2" finished-at="2019-09-30T11:19:34Z" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Partners]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForServices -->
+        <test-method signature="validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:34Z" name="validatefooterForServices" data-provider="footer2" finished-at="2019-09-30T11:19:34Z" duration-ms="156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Case Studies old]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForServices -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:34Z" name="tearDown" finished-at="2019-09-30T11:19:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForServices status=SUCCESS method=HomePagetestscripts.validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:34Z" name="tearDown" finished-at="2019-09-30T11:19:34Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForServices status=SUCCESS method=HomePagetestscripts.validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:34Z" name="validatefooterForServices" data-provider="footer2" finished-at="2019-09-30T11:19:35Z" duration-ms="144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Careers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForServices -->
+        <test-method signature="validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:35Z" name="validatefooterForServices" data-provider="footer2" finished-at="2019-09-30T11:19:35Z" duration-ms="148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Contact Us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForServices -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:35Z" name="tearDown" finished-at="2019-09-30T11:19:35Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForServices status=SUCCESS method=HomePagetestscripts.validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:35Z" name="tearDown" finished-at="2019-09-30T11:19:35Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForServices status=SUCCESS method=HomePagetestscripts.validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:35Z" name="validatefooterForServices" data-provider="footer2" finished-at="2019-09-30T11:19:35Z" duration-ms="154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automation Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForServices -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:35Z" name="tearDown" finished-at="2019-09-30T11:19:35Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForServices status=SUCCESS method=HomePagetestscripts.validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:35Z" name="validatefooterForServices" data-provider="footer2" finished-at="2019-09-30T11:19:35Z" duration-ms="144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DevOps Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForServices -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:35Z" name="tearDown" finished-at="2019-09-30T11:19:35Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForServices status=SUCCESS method=HomePagetestscripts.validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:35Z" name="validatefooterForServices" data-provider="footer2" finished-at="2019-09-30T11:19:35Z" duration-ms="196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Senior .NET Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForServices -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:35Z" name="tearDown" finished-at="2019-09-30T11:19:35Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForServices status=SUCCESS method=HomePagetestscripts.validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:35Z" name="validatefooterForServices" data-provider="footer2" finished-at="2019-09-30T11:19:35Z" duration-ms="188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Senior Java/J2EE Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForServices -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:35Z" name="tearDown" finished-at="2019-09-30T11:19:35Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForServices status=SUCCESS method=HomePagetestscripts.validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:35Z" name="validatefooterForServices" data-provider="footer2" finished-at="2019-09-30T11:19:36Z" duration-ms="188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US Headquarters]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForServices -->
+        <test-method signature="validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:36Z" name="validatefooterForServices" data-provider="footer2" finished-at="2019-09-30T11:19:36Z" duration-ms="172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US R&D Center]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForServices -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:36Z" name="tearDown" finished-at="2019-09-30T11:19:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForServices status=SUCCESS method=HomePagetestscripts.validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:36Z" name="validatefooterForServices" data-provider="footer2" finished-at="2019-09-30T11:19:36Z" duration-ms="174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[info@atmecs.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForServices -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:36Z" name="tearDown" finished-at="2019-09-30T11:19:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForServices status=SUCCESS method=HomePagetestscripts.validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:36Z" name="tearDown" finished-at="2019-09-30T11:19:36Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForServices status=SUCCESS method=HomePagetestscripts.validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:36Z" name="validatefooterForServices" data-provider="footer2" finished-at="2019-09-30T11:19:36Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForServices -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:36Z" name="tearDown" finished-at="2019-09-30T11:19:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForServices status=SUCCESS method=HomePagetestscripts.validatefooterForServices(java.lang.String)[pri:3, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickHeaderCareers()[pri:4, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:36Z" name="clickHeaderCareers" finished-at="2019-09-30T11:19:38Z" duration-ms="2074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickHeaderCareers -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:38Z" name="tearDown" finished-at="2019-09-30T11:19:38Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickHeaderCareers status=SUCCESS method=HomePagetestscripts.clickHeaderCareers()[pri:4, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:38Z" name="validatefooterForCareers" data-provider="footer2" finished-at="2019-09-30T11:19:38Z" duration-ms="180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForCareers -->
+        <test-method signature="validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:38Z" name="validatefooterForCareers" data-provider="footer2" finished-at="2019-09-30T11:19:38Z" duration-ms="148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[About Us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForCareers -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:38Z" name="tearDown" finished-at="2019-09-30T11:19:38Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForCareers status=SUCCESS method=HomePagetestscripts.validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:38Z" name="validatefooterForCareers" data-provider="footer2" finished-at="2019-09-30T11:19:39Z" duration-ms="156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Services]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForCareers -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:38Z" name="tearDown" finished-at="2019-09-30T11:19:38Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForCareers status=SUCCESS method=HomePagetestscripts.validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:39Z" name="tearDown" finished-at="2019-09-30T11:19:39Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForCareers status=SUCCESS method=HomePagetestscripts.validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:39Z" name="validatefooterForCareers" data-provider="footer2" finished-at="2019-09-30T11:19:39Z" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Partners]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForCareers -->
+        <test-method signature="validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:39Z" name="validatefooterForCareers" data-provider="footer2" finished-at="2019-09-30T11:19:39Z" duration-ms="136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Case Studies old]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForCareers -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:39Z" name="tearDown" finished-at="2019-09-30T11:19:39Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForCareers status=SUCCESS method=HomePagetestscripts.validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:39Z" name="tearDown" finished-at="2019-09-30T11:19:39Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForCareers status=SUCCESS method=HomePagetestscripts.validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:39Z" name="validatefooterForCareers" data-provider="footer2" finished-at="2019-09-30T11:19:39Z" duration-ms="141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Careers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForCareers -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:39Z" name="tearDown" finished-at="2019-09-30T11:19:39Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForCareers status=SUCCESS method=HomePagetestscripts.validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:39Z" name="validatefooterForCareers" data-provider="footer2" finished-at="2019-09-30T11:19:39Z" duration-ms="134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Contact Us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForCareers -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:39Z" name="tearDown" finished-at="2019-09-30T11:19:39Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForCareers status=SUCCESS method=HomePagetestscripts.validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:39Z" name="validatefooterForCareers" data-provider="footer2" finished-at="2019-09-30T11:19:39Z" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automation Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForCareers -->
+        <test-method signature="validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:39Z" name="validatefooterForCareers" data-provider="footer2" finished-at="2019-09-30T11:19:40Z" duration-ms="152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DevOps Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForCareers -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:39Z" name="tearDown" finished-at="2019-09-30T11:19:39Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForCareers status=SUCCESS method=HomePagetestscripts.validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:40Z" name="validatefooterForCareers" data-provider="footer2" finished-at="2019-09-30T11:19:40Z" duration-ms="160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Senior .NET Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForCareers -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:40Z" name="tearDown" finished-at="2019-09-30T11:19:40Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForCareers status=SUCCESS method=HomePagetestscripts.validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:40Z" name="validatefooterForCareers" data-provider="footer2" finished-at="2019-09-30T11:19:40Z" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Senior Java/J2EE Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForCareers -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:40Z" name="tearDown" finished-at="2019-09-30T11:19:40Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForCareers status=SUCCESS method=HomePagetestscripts.validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:40Z" name="tearDown" finished-at="2019-09-30T11:19:40Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForCareers status=SUCCESS method=HomePagetestscripts.validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:40Z" name="validatefooterForCareers" data-provider="footer2" finished-at="2019-09-30T11:19:40Z" duration-ms="147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US Headquarters]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForCareers -->
+        <test-method signature="validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:40Z" name="validatefooterForCareers" data-provider="footer2" finished-at="2019-09-30T11:19:40Z" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US R&D Center]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForCareers -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:40Z" name="tearDown" finished-at="2019-09-30T11:19:40Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForCareers status=SUCCESS method=HomePagetestscripts.validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:40Z" name="validatefooterForCareers" data-provider="footer2" finished-at="2019-09-30T11:19:40Z" duration-ms="155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[info@atmecs.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForCareers -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:40Z" name="tearDown" finished-at="2019-09-30T11:19:40Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForCareers status=SUCCESS method=HomePagetestscripts.validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:40Z" name="tearDown" finished-at="2019-09-30T11:19:40Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForCareers status=SUCCESS method=HomePagetestscripts.validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:40Z" name="tearDown" finished-at="2019-09-30T11:19:40Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForCareers status=SUCCESS method=HomePagetestscripts.validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForCareers(java.lang.String)[pri:5, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:40Z" name="validatefooterForCareers" data-provider="footer2" finished-at="2019-09-30T11:19:40Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForCareers -->
+        <test-method signature="clickHeaderAboutUs()[pri:6, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:40Z" name="clickHeaderAboutUs" finished-at="2019-09-30T11:19:42Z" duration-ms="1804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickHeaderAboutUs -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:42Z" name="tearDown" finished-at="2019-09-30T11:19:42Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickHeaderAboutUs status=SUCCESS method=HomePagetestscripts.clickHeaderAboutUs()[pri:6, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:42Z" name="validatefooterForAboutUs" data-provider="footer2" finished-at="2019-09-30T11:19:42Z" duration-ms="144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForAboutUs -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:42Z" name="tearDown" finished-at="2019-09-30T11:19:42Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForAboutUs status=SUCCESS method=HomePagetestscripts.validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:42Z" name="validatefooterForAboutUs" data-provider="footer2" finished-at="2019-09-30T11:19:43Z" duration-ms="156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[About Us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForAboutUs -->
+        <test-method signature="validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:43Z" name="validatefooterForAboutUs" data-provider="footer2" finished-at="2019-09-30T11:19:43Z" duration-ms="152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Services]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForAboutUs -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:43Z" name="tearDown" finished-at="2019-09-30T11:19:43Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForAboutUs status=SUCCESS method=HomePagetestscripts.validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:43Z" name="validatefooterForAboutUs" data-provider="footer2" finished-at="2019-09-30T11:19:43Z" duration-ms="148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Partners]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForAboutUs -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:43Z" name="tearDown" finished-at="2019-09-30T11:19:43Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForAboutUs status=SUCCESS method=HomePagetestscripts.validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:43Z" name="tearDown" finished-at="2019-09-30T11:19:43Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForAboutUs status=SUCCESS method=HomePagetestscripts.validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:43Z" name="validatefooterForAboutUs" data-provider="footer2" finished-at="2019-09-30T11:19:43Z" duration-ms="132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Case Studies old]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForAboutUs -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:43Z" name="tearDown" finished-at="2019-09-30T11:19:43Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForAboutUs status=SUCCESS method=HomePagetestscripts.validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:43Z" name="validatefooterForAboutUs" data-provider="footer2" finished-at="2019-09-30T11:19:43Z" duration-ms="128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Careers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForAboutUs -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:43Z" name="tearDown" finished-at="2019-09-30T11:19:43Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForAboutUs status=SUCCESS method=HomePagetestscripts.validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:43Z" name="validatefooterForAboutUs" data-provider="footer2" finished-at="2019-09-30T11:19:43Z" duration-ms="144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Contact Us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForAboutUs -->
+        <test-method signature="validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:43Z" name="validatefooterForAboutUs" data-provider="footer2" finished-at="2019-09-30T11:19:43Z" duration-ms="134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automation Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForAboutUs -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:43Z" name="tearDown" finished-at="2019-09-30T11:19:43Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForAboutUs status=SUCCESS method=HomePagetestscripts.validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:43Z" name="validatefooterForAboutUs" data-provider="footer2" finished-at="2019-09-30T11:19:44Z" duration-ms="140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DevOps Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForAboutUs -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:43Z" name="tearDown" finished-at="2019-09-30T11:19:43Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForAboutUs status=SUCCESS method=HomePagetestscripts.validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:44Z" name="validatefooterForAboutUs" data-provider="footer2" finished-at="2019-09-30T11:19:44Z" duration-ms="172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Senior .NET Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForAboutUs -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:44Z" name="tearDown" finished-at="2019-09-30T11:19:44Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForAboutUs status=SUCCESS method=HomePagetestscripts.validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:44Z" name="tearDown" finished-at="2019-09-30T11:19:44Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForAboutUs status=SUCCESS method=HomePagetestscripts.validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:44Z" name="validatefooterForAboutUs" data-provider="footer2" finished-at="2019-09-30T11:19:44Z" duration-ms="144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Senior Java/J2EE Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForAboutUs -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:44Z" name="tearDown" finished-at="2019-09-30T11:19:44Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForAboutUs status=SUCCESS method=HomePagetestscripts.validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:44Z" name="validatefooterForAboutUs" data-provider="footer2" finished-at="2019-09-30T11:19:44Z" duration-ms="128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US Headquarters]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForAboutUs -->
+        <test-method signature="validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:44Z" name="validatefooterForAboutUs" data-provider="footer2" finished-at="2019-09-30T11:19:44Z" duration-ms="136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US R&D Center]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForAboutUs -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:44Z" name="tearDown" finished-at="2019-09-30T11:19:44Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForAboutUs status=SUCCESS method=HomePagetestscripts.validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:44Z" name="validatefooterForAboutUs" data-provider="footer2" finished-at="2019-09-30T11:19:44Z" duration-ms="136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[info@atmecs.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForAboutUs -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:44Z" name="tearDown" finished-at="2019-09-30T11:19:44Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForAboutUs status=SUCCESS method=HomePagetestscripts.validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:44Z" name="tearDown" finished-at="2019-09-30T11:19:44Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForAboutUs status=SUCCESS method=HomePagetestscripts.validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:44Z" name="validatefooterForAboutUs" data-provider="footer2" finished-at="2019-09-30T11:19:44Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForAboutUs -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:44Z" name="tearDown" finished-at="2019-09-30T11:19:44Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForAboutUs status=SUCCESS method=HomePagetestscripts.validatefooterForAboutUs(java.lang.String)[pri:7, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickHeaderPartners()[pri:8, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:44Z" name="clickHeaderPartners" finished-at="2019-09-30T11:19:47Z" duration-ms="2384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickHeaderPartners -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:47Z" name="tearDown" finished-at="2019-09-30T11:19:47Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickHeaderPartners status=SUCCESS method=HomePagetestscripts.clickHeaderPartners()[pri:8, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:47Z" name="validatefooterForPartner" data-provider="footer2" finished-at="2019-09-30T11:19:47Z" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForPartner -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:47Z" name="tearDown" finished-at="2019-09-30T11:19:47Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForPartner status=SUCCESS method=HomePagetestscripts.validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:47Z" name="validatefooterForPartner" data-provider="footer2" finished-at="2019-09-30T11:19:47Z" duration-ms="208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[About Us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForPartner -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:47Z" name="tearDown" finished-at="2019-09-30T11:19:47Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForPartner status=SUCCESS method=HomePagetestscripts.validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:47Z" name="validatefooterForPartner" data-provider="footer2" finished-at="2019-09-30T11:19:47Z" duration-ms="144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Services]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForPartner -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:47Z" name="tearDown" finished-at="2019-09-30T11:19:47Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForPartner status=SUCCESS method=HomePagetestscripts.validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:47Z" name="validatefooterForPartner" data-provider="footer2" finished-at="2019-09-30T11:19:47Z" duration-ms="144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Partners]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForPartner -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:47Z" name="tearDown" finished-at="2019-09-30T11:19:47Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForPartner status=SUCCESS method=HomePagetestscripts.validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:47Z" name="validatefooterForPartner" data-provider="footer2" finished-at="2019-09-30T11:19:48Z" duration-ms="160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Case Studies old]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForPartner -->
+        <test-method signature="validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:48Z" name="validatefooterForPartner" data-provider="footer2" finished-at="2019-09-30T11:19:48Z" duration-ms="139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Careers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForPartner -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:48Z" name="tearDown" finished-at="2019-09-30T11:19:48Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForPartner status=SUCCESS method=HomePagetestscripts.validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:48Z" name="tearDown" finished-at="2019-09-30T11:19:48Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForPartner status=SUCCESS method=HomePagetestscripts.validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:48Z" name="validatefooterForPartner" data-provider="footer2" finished-at="2019-09-30T11:19:48Z" duration-ms="143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Contact Us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForPartner -->
+        <test-method signature="validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:48Z" name="validatefooterForPartner" data-provider="footer2" finished-at="2019-09-30T11:19:48Z" duration-ms="148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automation Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForPartner -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:48Z" name="tearDown" finished-at="2019-09-30T11:19:48Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForPartner status=SUCCESS method=HomePagetestscripts.validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:48Z" name="validatefooterForPartner" data-provider="footer2" finished-at="2019-09-30T11:19:48Z" duration-ms="148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DevOps Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForPartner -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:48Z" name="tearDown" finished-at="2019-09-30T11:19:48Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForPartner status=SUCCESS method=HomePagetestscripts.validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:48Z" name="validatefooterForPartner" data-provider="footer2" finished-at="2019-09-30T11:19:48Z" duration-ms="152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Senior .NET Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForPartner -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:48Z" name="tearDown" finished-at="2019-09-30T11:19:48Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForPartner status=SUCCESS method=HomePagetestscripts.validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:48Z" name="tearDown" finished-at="2019-09-30T11:19:48Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForPartner status=SUCCESS method=HomePagetestscripts.validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:48Z" name="validatefooterForPartner" data-provider="footer2" finished-at="2019-09-30T11:19:48Z" duration-ms="140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Senior Java/J2EE Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForPartner -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:48Z" name="tearDown" finished-at="2019-09-30T11:19:48Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForPartner status=SUCCESS method=HomePagetestscripts.validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:48Z" name="validatefooterForPartner" data-provider="footer2" finished-at="2019-09-30T11:19:49Z" duration-ms="128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US Headquarters]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForPartner -->
+        <test-method signature="validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:49Z" name="validatefooterForPartner" data-provider="footer2" finished-at="2019-09-30T11:19:49Z" duration-ms="156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US R&D Center]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForPartner -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:49Z" name="tearDown" finished-at="2019-09-30T11:19:49Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForPartner status=SUCCESS method=HomePagetestscripts.validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:49Z" name="tearDown" finished-at="2019-09-30T11:19:49Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForPartner status=SUCCESS method=HomePagetestscripts.validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:49Z" name="validatefooterForPartner" data-provider="footer2" finished-at="2019-09-30T11:19:49Z" duration-ms="151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[info@atmecs.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForPartner -->
+        <test-method signature="clickHeaderMedia()[pri:10, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:49Z" name="clickHeaderMedia" finished-at="2019-09-30T11:19:49Z" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickHeaderMedia -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:49Z" name="tearDown" finished-at="2019-09-30T11:19:49Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForPartner status=SUCCESS method=HomePagetestscripts.validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:49Z" name="tearDown" finished-at="2019-09-30T11:19:49Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForPartner status=SUCCESS method=HomePagetestscripts.validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForPartner(java.lang.String)[pri:9, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:49Z" name="validatefooterForPartner" data-provider="footer2" finished-at="2019-09-30T11:19:49Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForPartner -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:49Z" name="tearDown" finished-at="2019-09-30T11:19:49Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickHeaderMedia status=SUCCESS method=HomePagetestscripts.clickHeaderMedia()[pri:10, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:49Z" name="validatefooterForMedia" data-provider="footer2" finished-at="2019-09-30T11:19:49Z" duration-ms="124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForMedia -->
+        <test-method signature="validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:49Z" name="validatefooterForMedia" data-provider="footer2" finished-at="2019-09-30T11:19:50Z" duration-ms="136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[About Us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForMedia -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:49Z" name="tearDown" finished-at="2019-09-30T11:19:49Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForMedia status=SUCCESS method=HomePagetestscripts.validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:50Z" name="tearDown" finished-at="2019-09-30T11:19:50Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForMedia status=SUCCESS method=HomePagetestscripts.validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:50Z" name="validatefooterForMedia" data-provider="footer2" finished-at="2019-09-30T11:19:50Z" duration-ms="100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Services]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForMedia -->
+        <test-method signature="validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:50Z" name="validatefooterForMedia" data-provider="footer2" finished-at="2019-09-30T11:19:50Z" duration-ms="119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Partners]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForMedia -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:50Z" name="tearDown" finished-at="2019-09-30T11:19:50Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForMedia status=SUCCESS method=HomePagetestscripts.validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:50Z" name="tearDown" finished-at="2019-09-30T11:19:50Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForMedia status=SUCCESS method=HomePagetestscripts.validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:50Z" name="validatefooterForMedia" data-provider="footer2" finished-at="2019-09-30T11:19:50Z" duration-ms="98" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Case Studies old]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForMedia -->
+        <test-method signature="validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:50Z" name="validatefooterForMedia" data-provider="footer2" finished-at="2019-09-30T11:19:50Z" duration-ms="96" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Careers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForMedia -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:50Z" name="tearDown" finished-at="2019-09-30T11:19:50Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForMedia status=SUCCESS method=HomePagetestscripts.validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:50Z" name="tearDown" finished-at="2019-09-30T11:19:50Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForMedia status=SUCCESS method=HomePagetestscripts.validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:50Z" name="validatefooterForMedia" data-provider="footer2" finished-at="2019-09-30T11:19:50Z" duration-ms="116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Contact Us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForMedia -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:50Z" name="tearDown" finished-at="2019-09-30T11:19:50Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForMedia status=SUCCESS method=HomePagetestscripts.validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:50Z" name="validatefooterForMedia" data-provider="footer2" finished-at="2019-09-30T11:19:50Z" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automation Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForMedia -->
+        <test-method signature="validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:50Z" name="validatefooterForMedia" data-provider="footer2" finished-at="2019-09-30T11:19:50Z" duration-ms="94" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DevOps Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForMedia -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:50Z" name="tearDown" finished-at="2019-09-30T11:19:50Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForMedia status=SUCCESS method=HomePagetestscripts.validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:50Z" name="validatefooterForMedia" data-provider="footer2" finished-at="2019-09-30T11:19:50Z" duration-ms="93" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Senior .NET Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForMedia -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:50Z" name="tearDown" finished-at="2019-09-30T11:19:50Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForMedia status=SUCCESS method=HomePagetestscripts.validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:50Z" name="tearDown" finished-at="2019-09-30T11:19:50Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForMedia status=SUCCESS method=HomePagetestscripts.validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:50Z" name="validatefooterForMedia" data-provider="footer2" finished-at="2019-09-30T11:19:50Z" duration-ms="110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Senior Java/J2EE Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForMedia -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:50Z" name="tearDown" finished-at="2019-09-30T11:19:50Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForMedia status=SUCCESS method=HomePagetestscripts.validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:50Z" name="validatefooterForMedia" data-provider="footer2" finished-at="2019-09-30T11:19:51Z" duration-ms="93" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US Headquarters]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForMedia -->
+        <test-method signature="validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:51Z" name="validatefooterForMedia" data-provider="footer2" finished-at="2019-09-30T11:19:51Z" duration-ms="94" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US R&D Center]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForMedia -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:51Z" name="tearDown" finished-at="2019-09-30T11:19:51Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForMedia status=SUCCESS method=HomePagetestscripts.validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:51Z" name="validatefooterForMedia" data-provider="footer2" finished-at="2019-09-30T11:19:51Z" duration-ms="129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[info@atmecs.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForMedia -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:51Z" name="tearDown" finished-at="2019-09-30T11:19:51Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForMedia status=SUCCESS method=HomePagetestscripts.validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickContactUs()[pri:12, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:51Z" name="clickContactUs" finished-at="2019-09-30T11:19:53Z" duration-ms="2555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickContactUs -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:51Z" name="tearDown" finished-at="2019-09-30T11:19:51Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForMedia status=SUCCESS method=HomePagetestscripts.validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:51Z" name="validatefooterForMedia" data-provider="footer2" finished-at="2019-09-30T11:19:51Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForMedia -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:51Z" name="tearDown" finished-at="2019-09-30T11:19:51Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForMedia status=SUCCESS method=HomePagetestscripts.validatefooterForMedia(java.lang.String)[pri:11, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:53Z" name="tearDown" finished-at="2019-09-30T11:19:53Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickContactUs status=SUCCESS method=HomePagetestscripts.clickContactUs()[pri:12, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:53Z" name="validatefooterForContacts" data-provider="footer2" finished-at="2019-09-30T11:19:54Z" duration-ms="140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForContacts -->
+        <test-method signature="validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:54Z" name="validatefooterForContacts" data-provider="footer2" finished-at="2019-09-30T11:19:54Z" duration-ms="156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[About Us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForContacts -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:54Z" name="tearDown" finished-at="2019-09-30T11:19:54Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForContacts status=SUCCESS method=HomePagetestscripts.validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:54Z" name="validatefooterForContacts" data-provider="footer2" finished-at="2019-09-30T11:19:54Z" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Services]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForContacts -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:54Z" name="tearDown" finished-at="2019-09-30T11:19:54Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForContacts status=SUCCESS method=HomePagetestscripts.validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:54Z" name="validatefooterForContacts" data-provider="footer2" finished-at="2019-09-30T11:19:54Z" duration-ms="116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Partners]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForContacts -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:54Z" name="tearDown" finished-at="2019-09-30T11:19:54Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForContacts status=SUCCESS method=HomePagetestscripts.validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:54Z" name="validatefooterForContacts" data-provider="footer2" finished-at="2019-09-30T11:19:54Z" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Case Studies old]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForContacts -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:54Z" name="tearDown" finished-at="2019-09-30T11:19:54Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForContacts status=SUCCESS method=HomePagetestscripts.validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:54Z" name="tearDown" finished-at="2019-09-30T11:19:54Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForContacts status=SUCCESS method=HomePagetestscripts.validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:54Z" name="validatefooterForContacts" data-provider="footer2" finished-at="2019-09-30T11:19:54Z" duration-ms="120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Careers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForContacts -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:54Z" name="tearDown" finished-at="2019-09-30T11:19:54Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForContacts status=SUCCESS method=HomePagetestscripts.validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:54Z" name="validatefooterForContacts" data-provider="footer2" finished-at="2019-09-30T11:19:54Z" duration-ms="116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Contact Us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForContacts -->
+        <test-method signature="validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:54Z" name="validatefooterForContacts" data-provider="footer2" finished-at="2019-09-30T11:19:54Z" duration-ms="116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automation Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForContacts -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:54Z" name="tearDown" finished-at="2019-09-30T11:19:54Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForContacts status=SUCCESS method=HomePagetestscripts.validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:54Z" name="tearDown" finished-at="2019-09-30T11:19:54Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForContacts status=SUCCESS method=HomePagetestscripts.validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:54Z" name="validatefooterForContacts" data-provider="footer2" finished-at="2019-09-30T11:19:55Z" duration-ms="109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DevOps Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForContacts -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:55Z" name="tearDown" finished-at="2019-09-30T11:19:55Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForContacts status=SUCCESS method=HomePagetestscripts.validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:55Z" name="validatefooterForContacts" data-provider="footer2" finished-at="2019-09-30T11:19:55Z" duration-ms="116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Senior .NET Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForContacts -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:55Z" name="tearDown" finished-at="2019-09-30T11:19:55Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForContacts status=SUCCESS method=HomePagetestscripts.validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:55Z" name="validatefooterForContacts" data-provider="footer2" finished-at="2019-09-30T11:19:55Z" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Senior Java/J2EE Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForContacts -->
+        <test-method signature="validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:55Z" name="validatefooterForContacts" data-provider="footer2" finished-at="2019-09-30T11:19:55Z" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US Headquarters]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForContacts -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:55Z" name="tearDown" finished-at="2019-09-30T11:19:55Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForContacts status=SUCCESS method=HomePagetestscripts.validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:55Z" name="tearDown" finished-at="2019-09-30T11:19:55Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForContacts status=SUCCESS method=HomePagetestscripts.validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:55Z" name="validatefooterForContacts" data-provider="footer2" finished-at="2019-09-30T11:19:55Z" duration-ms="116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US R&D Center]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForContacts -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:55Z" name="tearDown" finished-at="2019-09-30T11:19:55Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForContacts status=SUCCESS method=HomePagetestscripts.validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:55Z" name="validatefooterForContacts" data-provider="footer2" finished-at="2019-09-30T11:19:55Z" duration-ms="120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[info@atmecs.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForContacts -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:55Z" name="tearDown" finished-at="2019-09-30T11:19:55Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForContacts status=SUCCESS method=HomePagetestscripts.validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:55Z" name="validatefooterForContacts" data-provider="footer2" finished-at="2019-09-30T11:19:55Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForContacts -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:55Z" name="tearDown" finished-at="2019-09-30T11:19:55Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForContacts status=SUCCESS method=HomePagetestscripts.validatefooterForContacts(java.lang.String)[pri:13, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickInsights()[pri:14, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:55Z" name="clickInsights" finished-at="2019-09-30T11:19:55Z" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickInsights -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:55Z" name="tearDown" finished-at="2019-09-30T11:19:55Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickInsights status=SUCCESS method=HomePagetestscripts.clickInsights()[pri:14, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:55Z" name="validatefooterForInsights" data-provider="footer2" finished-at="2019-09-30T11:19:56Z" duration-ms="146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForInsights -->
+        <test-method signature="validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:56Z" name="validatefooterForInsights" data-provider="footer2" finished-at="2019-09-30T11:19:56Z" duration-ms="103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[About Us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForInsights -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:56Z" name="tearDown" finished-at="2019-09-30T11:19:56Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForInsights status=SUCCESS method=HomePagetestscripts.validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:56Z" name="validatefooterForInsights" data-provider="footer2" finished-at="2019-09-30T11:19:56Z" duration-ms="96" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Services]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForInsights -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:56Z" name="tearDown" finished-at="2019-09-30T11:19:56Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForInsights status=SUCCESS method=HomePagetestscripts.validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:56Z" name="validatefooterForInsights" data-provider="footer2" finished-at="2019-09-30T11:19:56Z" duration-ms="80" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Partners]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForInsights -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:56Z" name="tearDown" finished-at="2019-09-30T11:19:56Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForInsights status=SUCCESS method=HomePagetestscripts.validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:56Z" name="validatefooterForInsights" data-provider="footer2" finished-at="2019-09-30T11:19:56Z" duration-ms="84" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Case Studies old]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForInsights -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:56Z" name="tearDown" finished-at="2019-09-30T11:19:56Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForInsights status=SUCCESS method=HomePagetestscripts.validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:56Z" name="tearDown" finished-at="2019-09-30T11:19:56Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForInsights status=SUCCESS method=HomePagetestscripts.validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:56Z" name="validatefooterForInsights" data-provider="footer2" finished-at="2019-09-30T11:19:56Z" duration-ms="84" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Careers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForInsights -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:56Z" name="tearDown" finished-at="2019-09-30T11:19:56Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForInsights status=SUCCESS method=HomePagetestscripts.validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:56Z" name="validatefooterForInsights" data-provider="footer2" finished-at="2019-09-30T11:19:56Z" duration-ms="80" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Contact Us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForInsights -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:56Z" name="tearDown" finished-at="2019-09-30T11:19:56Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForInsights status=SUCCESS method=HomePagetestscripts.validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:56Z" name="validatefooterForInsights" data-provider="footer2" finished-at="2019-09-30T11:19:56Z" duration-ms="84" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automation Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForInsights -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:56Z" name="tearDown" finished-at="2019-09-30T11:19:56Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForInsights status=SUCCESS method=HomePagetestscripts.validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:56Z" name="validatefooterForInsights" data-provider="footer2" finished-at="2019-09-30T11:19:56Z" duration-ms="84" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DevOps Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForInsights -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:56Z" name="tearDown" finished-at="2019-09-30T11:19:56Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForInsights status=SUCCESS method=HomePagetestscripts.validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:56Z" name="validatefooterForInsights" data-provider="footer2" finished-at="2019-09-30T11:19:56Z" duration-ms="80" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Senior .NET Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForInsights -->
+        <test-method signature="validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:56Z" name="validatefooterForInsights" data-provider="footer2" finished-at="2019-09-30T11:19:56Z" duration-ms="80" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Senior Java/J2EE Engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForInsights -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:56Z" name="tearDown" finished-at="2019-09-30T11:19:56Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForInsights status=SUCCESS method=HomePagetestscripts.validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:56Z" name="validatefooterForInsights" data-provider="footer2" finished-at="2019-09-30T11:19:57Z" duration-ms="81" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US Headquarters]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForInsights -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:56Z" name="tearDown" finished-at="2019-09-30T11:19:56Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForInsights status=SUCCESS method=HomePagetestscripts.validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:57Z" name="validatefooterForInsights" data-provider="footer2" finished-at="2019-09-30T11:19:57Z" duration-ms="77" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US R&D Center]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForInsights -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:57Z" name="tearDown" finished-at="2019-09-30T11:19:57Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForInsights status=SUCCESS method=HomePagetestscripts.validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:57Z" name="tearDown" finished-at="2019-09-30T11:19:57Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForInsights status=SUCCESS method=HomePagetestscripts.validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:57Z" name="validatefooterForInsights" data-provider="footer2" finished-at="2019-09-30T11:19:57Z" duration-ms="88" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[info@atmecs.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForInsights -->
+        <test-method signature="validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:57Z" name="validatefooterForInsights" data-provider="footer2" finished-at="2019-09-30T11:19:57Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefooterForInsights -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:57Z" name="tearDown" finished-at="2019-09-30T11:19:57Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForInsights status=SUCCESS method=HomePagetestscripts.validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="print()[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:57Z" name="print" finished-at="2019-09-30T11:19:57Z" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495]" started-at="2019-09-30T11:19:57Z" name="tearDown" finished-at="2019-09-30T11:19:57Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatefooterForInsights status=SUCCESS method=HomePagetestscripts.validatefooterForInsights(java.lang.String)[pri:15, instance:com.atmecs.testScripts.HomePagetestscripts@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.atmecs.testScripts.HomePagetestscripts -->
+    </test> <!-- HomepageTest -->
+    <test started-at="2019-09-30T11:19:57Z" name="AnchorsTest" finished-at="2019-09-30T11:20:35Z" duration-ms="37591">
+      <class name="com.atmecs.testScripts.ValidateAnchors">
+        <test-method is-config="true" signature="intitailizeBrowser()[pri:0, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:19:57Z" name="intitailizeBrowser" finished-at="2019-09-30T11:20:23Z" duration-ms="25954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitailizeBrowser -->
+        <test-method signature="moveToDigitalLife()[pri:16, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:23Z" name="moveToDigitalLife" finished-at="2019-09-30T11:20:28Z" duration-ms="4697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveToDigitalLife -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:28Z" name="tearDown" finished-at="2019-09-30T11:20:28Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=moveToDigitalLife status=SUCCESS method=ValidateAnchors.moveToDigitalLife()[pri:16, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="isDigitalLifeAnchorPresent(java.lang.String)[pri:17, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:28Z" name="isDigitalLifeAnchorPresent" data-provider="header1" finished-at="2019-09-30T11:20:28Z" duration-ms="244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Artificial Intelligence / Machine Learning]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isDigitalLifeAnchorPresent -->
+        <test-method signature="isDigitalLifeAnchorPresent(java.lang.String)[pri:17, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:28Z" name="isDigitalLifeAnchorPresent" data-provider="header1" finished-at="2019-09-30T11:20:28Z" duration-ms="172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Augmented Reality / Virtual Reality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isDigitalLifeAnchorPresent -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:28Z" name="tearDown" finished-at="2019-09-30T11:20:28Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isDigitalLifeAnchorPresent status=SUCCESS method=ValidateAnchors.isDigitalLifeAnchorPresent(java.lang.String)[pri:17, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="isDigitalLifeAnchorPresent(java.lang.String)[pri:17, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:28Z" name="isDigitalLifeAnchorPresent" data-provider="header1" finished-at="2019-09-30T11:20:28Z" duration-ms="168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Internet of Things]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isDigitalLifeAnchorPresent -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:28Z" name="tearDown" finished-at="2019-09-30T11:20:28Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isDigitalLifeAnchorPresent status=SUCCESS method=ValidateAnchors.isDigitalLifeAnchorPresent(java.lang.String)[pri:17, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="isDigitalLifeAnchorPresent(java.lang.String)[pri:17, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:28Z" name="isDigitalLifeAnchorPresent" data-provider="header1" finished-at="2019-09-30T11:20:28Z" duration-ms="204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Blockchain]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isDigitalLifeAnchorPresent -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:28Z" name="tearDown" finished-at="2019-09-30T11:20:28Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isDigitalLifeAnchorPresent status=SUCCESS method=ValidateAnchors.isDigitalLifeAnchorPresent(java.lang.String)[pri:17, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:28Z" name="tearDown" finished-at="2019-09-30T11:20:28Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isDigitalLifeAnchorPresent status=SUCCESS method=ValidateAnchors.isDigitalLifeAnchorPresent(java.lang.String)[pri:17, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="isDigitalLifeAnchorPresent(java.lang.String)[pri:17, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:28Z" name="isDigitalLifeAnchorPresent" data-provider="header1" finished-at="2019-09-30T11:20:29Z" duration-ms="172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Robotic Process Automation & ChatBOTs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isDigitalLifeAnchorPresent -->
+        <test-method signature="isDigitalLifeAnchorPresent(java.lang.String)[pri:17, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:29Z" name="isDigitalLifeAnchorPresent" data-provider="header1" finished-at="2019-09-30T11:20:29Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isDigitalLifeAnchorPresent -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:29Z" name="tearDown" finished-at="2019-09-30T11:20:29Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isDigitalLifeAnchorPresent status=SUCCESS method=ValidateAnchors.isDigitalLifeAnchorPresent(java.lang.String)[pri:17, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:29Z" name="tearDown" finished-at="2019-09-30T11:20:29Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isDigitalLifeAnchorPresent status=SUCCESS method=ValidateAnchors.isDigitalLifeAnchorPresent(java.lang.String)[pri:17, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="moveToInfrastructure()[pri:18, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:29Z" name="moveToInfrastructure" finished-at="2019-09-30T11:20:33Z" duration-ms="4608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveToInfrastructure -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:33Z" name="tearDown" finished-at="2019-09-30T11:20:33Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=moveToInfrastructure status=SUCCESS method=ValidateAnchors.moveToInfrastructure()[pri:18, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="isInfrastructureAnchorPresent(java.lang.String)[pri:19, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:33Z" name="isInfrastructureAnchorPresent" data-provider="header2" finished-at="2019-09-30T11:20:34Z" duration-ms="244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Infrastructure Management]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isInfrastructureAnchorPresent -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:34Z" name="tearDown" finished-at="2019-09-30T11:20:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isInfrastructureAnchorPresent status=SUCCESS method=ValidateAnchors.isInfrastructureAnchorPresent(java.lang.String)[pri:19, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="isInfrastructureAnchorPresent(java.lang.String)[pri:19, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:34Z" name="isInfrastructureAnchorPresent" data-provider="header2" finished-at="2019-09-30T11:20:34Z" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cloud Infrastructure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isInfrastructureAnchorPresent -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:34Z" name="tearDown" finished-at="2019-09-30T11:20:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isInfrastructureAnchorPresent status=SUCCESS method=ValidateAnchors.isInfrastructureAnchorPresent(java.lang.String)[pri:19, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="isInfrastructureAnchorPresent(java.lang.String)[pri:19, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:34Z" name="isInfrastructureAnchorPresent" data-provider="header2" finished-at="2019-09-30T11:20:34Z" duration-ms="152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Devops]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isInfrastructureAnchorPresent -->
+        <test-method signature="isInfrastructureAnchorPresent(java.lang.String)[pri:19, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:34Z" name="isInfrastructureAnchorPresent" data-provider="header2" finished-at="2019-09-30T11:20:34Z" duration-ms="148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NOC Services]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isInfrastructureAnchorPresent -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:34Z" name="tearDown" finished-at="2019-09-30T11:20:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isInfrastructureAnchorPresent status=SUCCESS method=ValidateAnchors.isInfrastructureAnchorPresent(java.lang.String)[pri:19, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:34Z" name="tearDown" finished-at="2019-09-30T11:20:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isInfrastructureAnchorPresent status=SUCCESS method=ValidateAnchors.isInfrastructureAnchorPresent(java.lang.String)[pri:19, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="isInfrastructureAnchorPresent(java.lang.String)[pri:19, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:34Z" name="isInfrastructureAnchorPresent" data-provider="header2" finished-at="2019-09-30T11:20:34Z" duration-ms="148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Data Center Management]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isInfrastructureAnchorPresent -->
+        <test-method signature="isInfrastructureAnchorPresent(java.lang.String)[pri:19, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:34Z" name="isInfrastructureAnchorPresent" data-provider="header2" finished-at="2019-09-30T11:20:34Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isInfrastructureAnchorPresent -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:34Z" name="tearDown" finished-at="2019-09-30T11:20:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isInfrastructureAnchorPresent status=SUCCESS method=ValidateAnchors.isInfrastructureAnchorPresent(java.lang.String)[pri:19, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="print()[pri:0, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:34Z" name="print" finished-at="2019-09-30T11:20:35Z" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb]" started-at="2019-09-30T11:20:34Z" name="tearDown" finished-at="2019-09-30T11:20:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isInfrastructureAnchorPresent status=SUCCESS method=ValidateAnchors.isInfrastructureAnchorPresent(java.lang.String)[pri:19, instance:com.atmecs.testScripts.ValidateAnchors@2ddc8ecb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.atmecs.testScripts.ValidateAnchors -->
+    </test> <!-- AnchorsTest -->
+    <test started-at="2019-09-30T11:20:35Z" name="InsightPageTest" finished-at="2019-09-30T11:21:19Z" duration-ms="44629">
+      <class name="com.atmecs.testScripts.InsightsValidation">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.atmecs.testScripts.InsightsValidation@63a65a25]" started-at="2019-09-30T11:18:56Z" name="startReport" finished-at="2019-09-30T11:18:56Z" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="intitailizeBrowser()[pri:0, instance:com.atmecs.testScripts.InsightsValidation@63a65a25]" started-at="2019-09-30T11:20:35Z" name="intitailizeBrowser" finished-at="2019-09-30T11:21:01Z" duration-ms="26798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitailizeBrowser -->
+        <test-method signature="anchorRedirection()[pri:20, instance:com.atmecs.testScripts.InsightsValidation@63a65a25]" started-at="2019-09-30T11:21:01Z" name="anchorRedirection" finished-at="2019-09-30T11:21:17Z" duration-ms="16073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anchorRedirection -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.InsightsValidation@63a65a25]" started-at="2019-09-30T11:21:17Z" name="tearDown" finished-at="2019-09-30T11:21:17Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=anchorRedirection status=SUCCESS method=InsightsValidation.anchorRedirection()[pri:20, instance:com.atmecs.testScripts.InsightsValidation@63a65a25] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validateDate()[pri:21, instance:com.atmecs.testScripts.InsightsValidation@63a65a25]" started-at="2019-09-30T11:21:17Z" name="validateDate" finished-at="2019-09-30T11:21:18Z" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDate -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.InsightsValidation@63a65a25]" started-at="2019-09-30T11:21:18Z" name="tearDown" finished-at="2019-09-30T11:21:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateDate status=SUCCESS method=InsightsValidation.validateDate()[pri:21, instance:com.atmecs.testScripts.InsightsValidation@63a65a25] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validateTitle()[pri:22, instance:com.atmecs.testScripts.InsightsValidation@63a65a25]" started-at="2019-09-30T11:21:18Z" name="validateTitle" finished-at="2019-09-30T11:21:18Z" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.InsightsValidation@63a65a25]" started-at="2019-09-30T11:21:18Z" name="tearDown" finished-at="2019-09-30T11:21:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateTitle status=SUCCESS method=InsightsValidation.validateTitle()[pri:22, instance:com.atmecs.testScripts.InsightsValidation@63a65a25] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validateBreadCrumb()[pri:23, instance:com.atmecs.testScripts.InsightsValidation@63a65a25]" started-at="2019-09-30T11:21:18Z" name="validateBreadCrumb" finished-at="2019-09-30T11:21:18Z" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBreadCrumb -->
+        <test-method signature="validateErrorMsg()[pri:24, instance:com.atmecs.testScripts.InsightsValidation@63a65a25]" started-at="2019-09-30T11:21:18Z" name="validateErrorMsg" finished-at="2019-09-30T11:21:19Z" duration-ms="784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorMsg -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.InsightsValidation@63a65a25]" started-at="2019-09-30T11:21:18Z" name="tearDown" finished-at="2019-09-30T11:21:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateBreadCrumb status=SUCCESS method=InsightsValidation.validateBreadCrumb()[pri:23, instance:com.atmecs.testScripts.InsightsValidation@63a65a25] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.InsightsValidation@63a65a25]" started-at="2019-09-30T11:21:19Z" name="tearDown" finished-at="2019-09-30T11:21:19Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateErrorMsg status=SUCCESS method=InsightsValidation.validateErrorMsg()[pri:24, instance:com.atmecs.testScripts.InsightsValidation@63a65a25] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="print()[pri:0, instance:com.atmecs.testScripts.InsightsValidation@63a65a25]" started-at="2019-09-30T11:21:19Z" name="print" finished-at="2019-09-30T11:21:19Z" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.atmecs.testScripts.InsightsValidation@63a65a25]" started-at="2019-09-30T11:21:19Z" name="endReport" finished-at="2019-09-30T11:21:20Z" duration-ms="819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.atmecs.testScripts.InsightsValidation -->
+    </test> <!-- InsightPageTest -->
+  </suite> <!-- Suite -->
+</testng-results>

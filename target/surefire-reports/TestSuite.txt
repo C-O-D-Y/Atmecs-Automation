@@ -1,0 +1,58 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 271, Failures: 3, Errors: 0, Skipped: 268, Time elapsed: 9.583 s <<< FAILURE! - in TestSuite
+intitailizeBrowser(com.atmecs.testScripts.HomePagetestscripts)  Time elapsed: 3.82 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to find a matching set of capabilities
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ATMECSINLT-038', ip: '55.55.52.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: unknown
+remote stacktrace: 
+Command duration or timeout: 1.18 seconds
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to find a matching set of capabilities
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ATMECSINLT-038', ip: '55.55.52.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: unknown
+remote stacktrace: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-038', ip: '55.55.52.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: unknown
+
+intitailizeBrowser(com.atmecs.testScripts.ValidateAnchors)  Time elapsed: 7.491 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to find a matching set of capabilities
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ATMECSINLT-038', ip: '55.55.52.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: unknown
+remote stacktrace: 
+Command duration or timeout: 856 milliseconds
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to find a matching set of capabilities
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ATMECSINLT-038', ip: '55.55.52.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: unknown
+remote stacktrace: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-038', ip: '55.55.52.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: unknown
+
+intitailizeBrowser(com.atmecs.testScripts.InsightsValidation)  Time elapsed: 8.64 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to find a matching set of capabilities
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ATMECSINLT-038', ip: '55.55.52.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: unknown
+remote stacktrace: 
+Command duration or timeout: 732 milliseconds
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to find a matching set of capabilities
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ATMECSINLT-038', ip: '55.55.52.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: unknown
+remote stacktrace: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-038', ip: '55.55.52.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: unknown
+
